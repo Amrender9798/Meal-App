@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+   
+}
+#search{
+    display: flex;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+    background-color: black;
+
+  
+    
+    
+}
+#input{
+    border-radius: 5px;
+    height:7vh;
+    width:50vh;
+    text-align: center;
+    font-size: 1.5rem;
+    
+    
+}
+button{
+    padding: 8px 20px;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#list >div{
+    width:24%;
+    margin:7px;
+   
+   
+    
+  
+    border: 2px solid black;
+}
+
+#read{
+    margin: 4px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+#favorite{
+    padding:15px;
+}
+
+#app{
+    color:yellow;
+}
